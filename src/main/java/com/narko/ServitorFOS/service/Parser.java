@@ -39,10 +39,6 @@ public class Parser {
                 postsElement.getElementsByTag("a").attr("href"),
                 postsElement.select("span.count").text() +postsElement.select("span.negotiated_price").text(),
                 postsElement.select("a.tags__item_link").text(), counter.incrementAndGet())));
-
-
-        var fuck = new Scanner(System.in);
-        fuck.nextLie();
     }
 
     public void updateListOrders(){
